@@ -1,98 +1,31 @@
-# Algorithms from scratch
+# Genetic Algorithm
 
-A collection of machine learning algorithms implemented from scratch to develop a deeper understanding of their underlying mathematics, logic, and implementation.
+A machine learning project that demonstrates Genetic Algorithms through population-based optimization and evolution.
 
-The focus of this repository is on understanding how algorithms work internally rather than simply using their library implementations.
+## About
 
-## Projects
+This project explores how Genetic Algorithms evolve solutions using fitness-based selection, crossover, and mutation. It includes binary optimization and string evolution experiments.
 
-| Algorithm           | 
-| ------------------- | 
-| Gradient Descent    |
-| K-Nearest Neighbors | 
+## Files
 
-More implementations will be added as I continue learning.
+- `Genetic_Algorithm.ipynb` — Main notebook containing Genetic Algorithm experiments
 
-## Approach
+## Tools Used
 
-For each algorithm, I follow:
+- Python
+- NumPy
+- Random
 
-```text
-Understand → Derive → Implement → Test → Verify
-```
-
-I first study the underlying concept and mathematics, implement the algorithm independently, test it, and then verify the results where appropriate.
-
-## Current Implementations
-
-### Gradient Descent
-
-A manual implementation of Gradient Descent for Linear Regression.
-
-**Includes:**
-
-* Mean Squared Error
-* Gradient calculation
-* Weight updates
-* Bias updates
-* Learning rate
-* Loss tracking
-
-**Dataset:** California Housing
-
-### K-Nearest Neighbors
-
-A manual implementation of KNN classification.
-
-**Includes:**
-
-* Euclidean distance
-* Nearest-neighbor selection
-* K-value handling
-* Majority voting
-* Classification
-
-**Verification:** Compared against scikit-learn's `KNeighborsClassifier`
-
-## Technologies
-
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
-
-### Genetic Algorithm
-
-A manual implementation of a searching algorithm inspired by biology
-
-**Includes:**
+## Includes
 
 * Population initialization
-* Chromosome encoding
-* Fitness function evaluation
-* Parent selection
+* Fitness evaluation
+* Fitness-based selection
 * Crossover
 * Mutation
 * Elitism
-* New generation formation
-* Termination criteria
-* Best solution extraction
-
-
-
-
-
-## Goal
-
-The goal of this repository is to build a practical understanding of machine learning by implementing algorithms independently and working through the mathematics and logic behind them.
-
-The implementations are primarily for learning and experimentation.
-
-## Progress
-
-* [x] Gradient Descent
-* [x] K-Nearest Neighbors
-* [ ] More algorithms
+* Generational evolution
+* Binary optimization
+* String evolution
 
 
