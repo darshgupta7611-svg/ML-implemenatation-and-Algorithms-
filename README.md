@@ -1,4 +1,4 @@
-# Machine Learning From Scratch
+# Algorithms from scratch
 
 A collection of machine learning algorithms implemented from scratch to develop a deeper understanding of their underlying mathematics, logic, and implementation.
 
@@ -6,10 +6,10 @@ The focus of this repository is on understanding how algorithms work internally 
 
 ## Projects
 
-| Algorithm           | Implementation | Dataset / Verification     |
-| ------------------- | -------------- | -------------------------- |
-| Gradient Descent    | From scratch   | California Housing         |
-| K-Nearest Neighbors | From scratch   | Verified with scikit-learn |
+| Algorithm           | 
+| ------------------- | 
+| Gradient Descent    |
+| K-Nearest Neighbors | 
 
 More implementations will be added as I continue learning.
 
@@ -61,6 +61,27 @@ A manual implementation of KNN classification.
 * Pandas
 * Matplotlib
 * Scikit-learn
+
+### Genetic Algorithm
+
+A manual implementation of a searching algorithm inspired by biology
+
+**Includes:**
+
+* Population initialization
+* Chromosome encoding
+* Fitness function evaluation
+* Parent selection
+* Crossover
+* Mutation
+* Elitism
+* New generation formation
+* Termination criteria
+* Best solution extraction
+
+
+
+
 
 ## Goal
 
